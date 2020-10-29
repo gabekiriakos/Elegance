@@ -47,13 +47,13 @@ if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
     eval `dbus-launch --sh-syntax`
 fi
 ```
-Gaming applications through Lutris will not load unless esync limits are set:<br>
-On Linux distributions not using Systemd or distributions using pam-limits.conf (Arch Linux, Fedora, Solus,... ), you (with root privileges or sudo) need to edit /etc/security/limits.conf.
-Change username to your actual username. Once the file is edited, reboot for the changes to take effect, and verify by running `ulimit -Hn` to see the new limit (524288).
-
-```c
-username hard nofile 524288
-```
+Gaming applications through Lutris will not load unless [esync limits are set](https://github.com/lutris/docs/blob/master/HowToEsync.md):<br>
+> On Linux distributions not using Systemd or distributions using pam-limits.conf (Arch Linux, Fedora, Solus,... ), you (with root privileges or sudo) need to edit /etc/security/limits.conf.
+> Change username to your actual username. Once the file is edited, reboot for the changes to take effect, and verify by running `ulimit -Hn` to see the new limit (524288).
+> 
+> ```c
+> username hard nofile 524288
+> ```
 ---
 
 <i>Dotfiles should be added to their respective locations according to the framework of the distribution.  This installation guide assumes the user is on Arch Linux or a fork of it so refer to the [wiki](https://wiki.archlinux.org/) for details concerning each application.</i>
