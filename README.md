@@ -1,4 +1,4 @@
-# Artix_Backup
+# Artix Backup
 <i>Dotfiles in case a reinstallation is necessary!<br>
 A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 
