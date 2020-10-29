@@ -5,7 +5,7 @@ A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 ---
 
 <b>Overview:</b>
-* OS: [Artix](https://www.artixlinux.org/)
+* OS: [Artix](https://artixlinux.org/)
 * Init: [Runit](https://en.wikipedia.org/wiki/Runit)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
 * Status: [py3status](https://github.com/ultrabug/py3status)
