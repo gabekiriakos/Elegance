@@ -2,7 +2,7 @@
 <i>Dotfiles in case a reinstallation is necessary!<br>
 A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 
-<br>
+---
 
 <b>Overview:</b>
 * OS: [Artix](https://www.artixlinux.org/)
@@ -51,7 +51,7 @@ fi
 ```
 Gaming applications through Lutris will not load unless esync limits are set:<br>
 On Linux distributions not using Systemd or distributions using pam-limits.conf (Arch Linux, Fedora, Solus,... ), you (with root privileges or sudo) need to edit /etc/security/limits.conf.
-Change username to your actual username. Once the file is edited, reboot for the changes to take effect, and verify by running ulimit -Hn to see the new limit (524288).
+Change username to your actual username. Once the file is edited, reboot for the changes to take effect, and verify by running `ulimit -Hn` to see the new limit (524288).
 
 ```c
 username hard nofile 524288
