@@ -34,9 +34,7 @@ A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 
 ---
 
-<b>IMPORTANT:</b><br>
-The custom `i3status.conf` needs to be placed in `/etc/` in order for py3status to work after it is installed.
-
+<b>Note:</b><br>
 MPRIS is used to display player status in py3status.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is the only required dependency.
 
 dbus most likely needs to be wrapped in the session to work properly<br> 
