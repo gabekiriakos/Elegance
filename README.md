@@ -21,7 +21,8 @@ A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 * Toggle Window Floating: `$mod+w`
 * Seamlessly Switch Workspaces: `Mod1+tab`
 * Exit Active Window: `Control+q`
-* Rofi Menu: `$mod+d`<br>
+* Rofi Menu: `$mod+d`
+* Passthrough Mode: `$mod+q` <br>
 
 ---
 
