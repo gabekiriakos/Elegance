@@ -31,7 +31,7 @@ User can modify these features and more in the i3 config.
 ---
 
 <b>Official Repository Apps:</b><br>
-<i>xorg (all), i3 (gaps, status, lock), py3status, python-pydbus, rofi, dunst, picom, lightdm, lightdm-gtk-greeter, git, terminator, networkmanager, network-manager-applet, udisks2, udiskie, ntfs-3g, reflector, nitrogen, gimp, firefox, vlc, ranger, pcmanfm, noto-fonts, noto-fonts-extra, noto-fonts-cjk, noto-fonts-emoji, ttf-font-awesome, nvidia, lib32-nvidia-utils (multilib), steam (multilib), wine (multilib), htop, grub-customizer, lxappearance, neofetch, powerline, pulseaudio, pavucontrol, fcitx (all), fcitx-configtool, fcitx-mozc, gtk-engines, gtk-engine-murrine, gnome-themes-extra, baobab, bluez, bluez-utils, blueman</i>
+<i>xorg (all), i3 (gaps, status, lock), py3status, python-pydbus, rofi, dunst, picom, lightdm, lightdm-gtk-greeter, git, terminator, networkmanager, network-manager-applet, udisks2, udiskie, ntfs-3g, reflector, nitrogen, gimp, firefox, vlc, ranger, pcmanfm, noto-fonts, noto-fonts-extra, noto-fonts-cjk, noto-fonts-emoji, ttf-font-awesome, nvidia, lib32-nvidia-utils (multilib), steam (multilib), lutris (multilib) wine (multilib), htop, grub-customizer, lxappearance, neofetch, powerline, pulseaudio, pavucontrol, fcitx (all), fcitx-configtool, fcitx-mozc, gtk-engines, gtk-engine-murrine, gnome-themes-extra, baobab, bluez, bluez-utils, blueman</i>
 
 <b>AUR Apps:</b><br>
 <i>yay, ttf-monaco, gotop, fcitx-skin-material</i>
@@ -53,6 +53,14 @@ if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
     eval `dbus-launch --sh-syntax`
 fi
 ```
+Gaming applications through Lutris will not load unless esync limits are set:<br>
+On Linux distributions not using Systemd or distributions using pam-limits.conf (Arch Linux, Fedora, Solus,... ), you (with root privileges or sudo) need to edit /etc/security/limits.conf.
+Change username to your actual username. Once the file is edited, reboot for the changes to take effect, and verify by running ulimit -Hn to see the new limit (524288).
+
+```c
+username hard nofile 524288
+```
+
 ---
 
 <b>Suggestions:</b><br>
