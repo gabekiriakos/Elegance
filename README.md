@@ -43,6 +43,15 @@ The custom `i3status.conf` needs to be placed in `/etc/` in order for py3status 
 
 MPRIS is used to display player status in py3status.  [python-pydbus](https://www.archlinux.org/packages/community/any/python-pydbus/) is the only required dependency.
 
+There might be issues with dbus in runit so modify the session wrapper (in this case, lightdm -> /etc/lightdm/XSession):
+
+```c
+# Load dbus
+if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
+    ## if not found, launch a new one
+    eval `dbus-launch --sh-syntax`
+fi
+```
 ---
 
 <b>Suggestions:</b><br>
