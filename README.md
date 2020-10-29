@@ -56,7 +56,7 @@ Gaming applications through Lutris will not load unless [esync limits are set](h
 > ```
 ---
 
-<i>Dotfiles should be added to their respective locations according to the framework of the distribution.  This installation guide assumes the user is on Arch Linux or a fork of it so refer to the [wiki](https://wiki.archlinux.org/) for details concerning each application.</i>
+<i>Dotfiles should be added to their respective locations according to the framework of the distribution.  This installation guide assumes the user is on Arch Linux or a fork of it so [refer to the wiki](https://wiki.archlinux.org/) for details concerning each application.</i>
 
 <br>
 
