@@ -1,6 +1,5 @@
-# Artix Backup
-<i>Dotfiles in case a reinstallation is necessary!<br>
-A clean and lightweight theme with minimal transparency for i3-gaps.</i>
+# Elegance
+<i>A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 
 ---
 
@@ -56,8 +55,9 @@ Gaming applications through Lutris will not load unless [esync limits are set](h
 > ```
 ---
 
-<i>Dotfiles should be added to their respective locations according to the framework of the distribution.  This installation guide assumes the user is on Arch Linux or a fork of it so [refer to the wiki](https://wiki.archlinux.org/) for details concerning each application.</i>
+<i>Dotfiles should be added to their respective locations according to the framework of the distribution.  This installation guide assumes the user is on Arch Linux or a fork of it so [refer to the wiki](https://wiki.archlinux.org/) for details concerning each application.</i><br>
 
-<br>
+<b>Disclaimer:</b><br>
+<i>It should go without saying that I am not responsible for anything YOU did to YOUR system.  This distro is targeted for power users willing to invest in the time and patience to build their own environment.
 
 ![GitHub Logo](/screenshot.png)
