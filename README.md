@@ -30,14 +30,14 @@ Refer to i3 config for all other features and key bindings.
 
 <details>
 <summary>
-<b>Official Repository Apps</b>
+<b>Official Repository</b>
 </summary>
 <i>xorg (all), i3 (gaps, status, lock), py3status, python-pydbus, rofi, dunst, picom, lightdm, lightdm-gtk-greeter, git, terminator, networkmanager, network-manager-applet, udisks2, udiskie, ntfs-3g, reflector, nitrogen, gimp, firefox, vlc, ranger, pcmanfm, noto-fonts, noto-fonts-extra, noto-fonts-cjk, noto-fonts-emoji, ttf-font-awesome, nvidia, lib32-nvidia-utils (multilib), steam (multilib), lutris (multilib) wine (multilib), htop, grub-customizer, lxappearance, neofetch, powerline, pulseaudio, pavucontrol, fcitx (all), fcitx-configtool, fcitx-mozc, gtk-engines, gtk-engine-murrine, gnome-themes-extra, baobab, file-roller, bluez, bluez-utils, blueman, papyrus-icon-theme, pasystray</i>
 </details>
 
 <details>
 <summary>
-<b>AUR Apps</b>
+<b>AUR</b>
 </summary>
 <i>yay, flat-remix-gtk, ttf-monaco, gotop, fcitx-skin-material</i>
 </details>
