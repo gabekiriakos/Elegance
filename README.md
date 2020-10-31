@@ -14,14 +14,16 @@
 
 <br>
 
-<b>Features:</b>
-* System Menu (Shutdown, Suspend, etc.): `$mod+e`
-* Screenshot (via Scrot): `$mod+p`
-* Toggle Window Floating: `$mod+w`
-* Seamlessly Switch Workspaces: `Mod1+tab`
-* Exit Active Window: `Control+q`
-* Rofi Menu: `$mod+d`
-* Passthrough Mode: `$mod+q` <br>
+<b>Noteable Features:</b>
+* System Menu: <i>super+e</i>
+* Applications Menu: <i>super+d</i>
+* Screenshot (requires Scrot): <i>super+p</i>
+* Toggle Window Floating: <i>super+w</i>
+* Toggle Workspaces: <i>alt+tab</i>
+* Exit Active Window: <i>ctrl+q</i>
+* Passthrough Mode (lock all bindings): <i>super+q</i> <br>
+
+Refer to i3 config for all other features and key bindings.
 
 ---
 
