@@ -1,5 +1,5 @@
 # i3 config file (v4)
-#
+
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 # Restore Nvidia Settings
@@ -23,14 +23,13 @@ floating_modifier $mod
 bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 
 # kill focused window
-#bindsym $mod+Shift+q kill
 bindsym Control+q kill
 
 # Autostart i3lock
-exec --no-startup-id i3lock -i /home/gabe/Pictures/Klyck_Nebula_Remastered.png
+exec --no-startup-id i3lock -i /home/$USER/Pictures/Klyck_Nebula_Remastered.png
 
 # System Menu
-set $Locker i3lock -i /home/gabe/Pictures/Klyck_Nebula_Remastered.png 
+set $Locker i3lock -i /home/$USER/Pictures/Klyck_Nebula_Remastered.png 
 
 set $mode_system System: (l)   (e)   (s)   (r)   (shift+s) 
 mode "$mode_system" {
@@ -95,7 +94,6 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+w floating toggle
 
 # Define names for default workspaces for which we configure key bindings later on.
-# We use variables to avoid repeating the names in multiple places.
 set $ws1 "  "
 set $ws2 "  "
 set $ws3 "  "
@@ -105,7 +103,7 @@ set $ws6 "  "
 set $ws7 "  "
 set $ws8 "  "
 set $ws9 "  "
-set $ws10 "|10|"
+set $ws10 " "
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -177,8 +175,7 @@ bar {
     i3bar_command i3bar -t
     colors {
 	background $transparent
-	#statusline #eeeeee
-	separator $transparent 
+	separator $transparent
         # class               border      bground      text
         focused_workspace  $transparent $transparent  #ffffff
         active_workspace   $transparent $transparent  #ffffff
@@ -200,10 +197,6 @@ bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 # Floating Windows
-#for_window [class="vlc"] floating enable
-#for_window [class="Spotify"] floating enable
-#for_window [class="Skype"] floating enable
-#for_window [class="firefox"] floating enable
 for_window [class="Pcmanfm"] floating enable
 for_window [class="Nitrogen"] floating enable
 for_window [class="Lxappearance"] floating enable
@@ -211,8 +204,6 @@ for_window [class="Gimp"] floating enable
 for_window [class="File-roller"] floating enable
 for_window [class="Font-manager"] floating enable
 for_window [class="Geany"] floating enable
-for_window [class="Org.gnome.Characters"] floating enable
-for_window [class="Gucharmap"] floating enable
 for_window [class="Baobab"] floating enable
 for_window [class="Steam"] floating enable
 for_window [class="Lutris"] floating enable
@@ -248,3 +239,5 @@ for_window [class="Unity"] focus
 assign [class="UnityHub"] $ws9
 for_window [class="UnityHub"] focus
 
+assign [class="Blender"] $ws10
+for_window [class="Blender"] focus
