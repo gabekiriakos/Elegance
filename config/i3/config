@@ -172,19 +172,19 @@ client.background       #FFFFFF
 
 set $transparent #00000090
 bar {
-	position top
-        status_command py3status -c /etc/i3status.conf
-	i3bar_command i3bar -t
-	colors {
-		background $transparent
-	        #statusline #eeeeee
-		separator $transparent 
-                #                     border     background     text
-                focused_workspace  $transparent $transparent   #ffffff
-                active_workspace   $transparent $transparent   #ffffff
-                inactive_workspace $transparent $transparent   #ffffff70
-                urgent_workspace   $transparent $transparent   #ffffff
-         	}
+    position top
+    status_command py3status -c /etc/i3status.conf
+    i3bar_command i3bar -t
+    colors {
+	background $transparent
+	#statusline #eeeeee
+	separator $transparent 
+        # class               border      bground      text
+        focused_workspace  $transparent $transparent  #ffffff
+        active_workspace   $transparent $transparent  #ffffff
+        inactive_workspace $transparent $transparent  #ffffff70
+        urgent_workspace   $transparent $transparent  #ffffff
+    }
 }
 
 # Audio controls
@@ -199,7 +199,7 @@ bindsym XF86AudioStop exec --no-startup-id playerctl pause
 bindsym XF86AudioNext exec --no-startup-id playerctl next
 bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
-# Floating Specific Windows
+# Floating Windows
 #for_window [class="vlc"] floating enable
 #for_window [class="Spotify"] floating enable
 #for_window [class="Skype"] floating enable
