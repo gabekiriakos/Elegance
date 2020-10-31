@@ -4,9 +4,6 @@
 ---
 
 <b>Overview:</b>
-
-<img align="right" width="150" height="150" src="https://user-content.gitlab-static.net/dd9b348bf7ecd7812c149545862bf41a4eca9fca/68747470733a2f2f61727469786c696e75782e6f72672f696d672f61727469782d6c6f676f2e706e67">
-
 * OS: [Artix](https://artixlinux.org/)
 * Init: [runit](https://en.wikipedia.org/wiki/Runit)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
