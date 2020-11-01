@@ -17,7 +17,7 @@
 
 <b>Noteable Features:</b>
 * System Menu: <i>super+e</i>
-* Applications Menu: <i>super+d</i>
+* Programs Menu: <i>super+d</i>
 * Screenshot (requires Scrot): <i>super+p</i>
 * Toggle Window Floating: <i>super+w</i>
 * Toggle Workspaces: <i>alt+tab</i>
