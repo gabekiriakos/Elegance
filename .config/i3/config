@@ -46,6 +46,9 @@ mode "$mode_system" {
 
 bindsym $mod+e mode "$mode_system"
 
+# Lock Screen
+bindsym $mod+l exec --no-startup-id $Locker, mode "default"
+
 # Rofi Menu
 bindsym $mod+d exec --no-startup-id rofi -show drun -location 1 -xoffset 2 -yoffset 27 -display-drun "" -disable-history -lines 5 -width 15 -font "Noto Sans Regular 10"
 
@@ -63,13 +66,7 @@ mode "$passthrough" {
 
 bindsym Mod4+q mode "$passthrough"; exec --no-startup-id "pkill -fi picom"
 
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
+# change focus:
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
