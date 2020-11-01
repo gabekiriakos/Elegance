@@ -1,4 +1,4 @@
-# Elegance <img width="25" height="25" src="https://user-content.gitlab-static.net/dd9b348bf7ecd7812c149545862bf41a4eca9fca/68747470733a2f2f61727469786c696e75782e6f72672f696d672f61727469782d6c6f676f2e706e67">
+# Elegance <img width="25" height="25" src="/logo.png">
 
 <i>A clean and lightweight theme with minimal transparency for i3-gaps.</i>
 
