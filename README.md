@@ -9,7 +9,7 @@
 * Init: [runit](https://en.wikipedia.org/wiki/Runit)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
 * Status: [py3status](https://github.com/ultrabug/py3status)
-* Compositor: [Picom](https://github.com/yshui/picom)
+* Compositor: [picom](https://github.com/yshui/picom)
 * Terminal: [Terminator](https://terminator-gtk3.readthedocs.io/en/latest/)
 * Menu: [Rofi](https://github.com/davatorium/rofi)
 
