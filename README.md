@@ -51,7 +51,7 @@ MPRIS is used to display player status in py3status.  [python-pydbus](https://ww
 dbus most likely needs to be wrapped in the session to work properly<br> 
 (in this case, lightdm -> /etc/lightdm/XSession):
 
-```c
+```bash
 # Load dbus
 if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then
     ## if not found, launch a new one
