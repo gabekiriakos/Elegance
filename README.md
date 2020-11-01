@@ -5,7 +5,7 @@
 ---
 
 <b>Overview:</b>
-* OS: [Artix](https://artixlinux.org/)
+* Distro: [Artix](https://artixlinux.org/)
 * Init: [runit](https://en.wikipedia.org/wiki/Runit)
 * WM: [i3-gaps](https://github.com/Airblader/i3)
 * Status: [py3status](https://github.com/ultrabug/py3status)
@@ -67,7 +67,7 @@ Gaming applications through Lutris will not load unless [esync limits are set](h
 > ```
 ---
 
-Dotfiles should be added to their respective locations according to the framework of the distribution.  Although these configurations could work within another OS running the same init system, it is assumed the user is on Artix or something close to Arch so [refer to the wiki](https://wiki.archlinux.org/) for details concerning each application.<br>
+Dotfiles should be added to their respective locations according to the framework of the distribution.  Although these configurations could work within another distro running the same init system, it is assumed the user is on Artix or something close to Arch so [refer to the wiki](https://wiki.archlinux.org/) for details concerning each application.<br>
 
 <b>Disclaimer:</b><br>
 <i>It should go without saying that I am not responsible for anything YOU did to YOUR system.  This distro is targeted for power users willing to invest in the time and patience to build their own environment.</i>
