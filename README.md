@@ -72,4 +72,4 @@ Dotfiles should be added to their respective locations according to the framewor
 <b>Disclaimer:</b><br>
 <i>It should go without saying that I am not responsible for anything YOU did to YOUR system.  This distro is targeted for power users willing to invest in the time and patience to build their own environment.</i>
 
-![GitHub Logo](/screenshot.png)
+![screenshot](/screenshot.png)
