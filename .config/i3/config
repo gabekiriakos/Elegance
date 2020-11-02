@@ -26,7 +26,7 @@ bindsym $mod+Return exec --no-startup-id i3-sensible-terminal
 bindsym Control+q kill
 
 # i3lock settings
-set $Locker i3lock -i /home/$USER/Pictures/Klyck_Nebula_Remastered.png 
+set $Locker i3lock -i /home/$USER/Pictures/lockscreen.png 
 
 # Autostart i3lock
 exec --no-startup-id $Locker
