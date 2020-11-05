@@ -222,8 +222,8 @@ for_window [class="vlc"] focus
 assign [class="Skype"] $ws7
 for_window [class="Skype"] focus
 
-assign [class="Wine"] $ws8
-for_window [class="Wine"] focus
+assign [class="fl64.exe"] $ws8
+for_window [class="fl64.exe"] focus
 
 assign [class="Unity"] $ws9
 for_window [class="Unity"] focus
