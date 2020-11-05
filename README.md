@@ -40,7 +40,7 @@ Refer to i3 config for all other features and key bindings.
 <summary>
 <b>AUR</b>
 </summary>
-<i>yay, flat-remix-gtk, ttf-monaco, gotop, fcitx-skin-material</i>
+<i>yay, flat-remix-gtk, ttf-monaco, gotop, fcitx-skin-material, downgrade</i>
 </details>
 
 ---
