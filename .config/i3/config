@@ -98,7 +98,7 @@ set $ws3 "  "
 set $ws4 "  "
 set $ws5 "  "
 set $ws6 "  "
-set $ws7 "  "
+set $ws7 "  "
 set $ws8 "  "
 set $ws9 "  "
 set $ws10 " "
@@ -222,8 +222,14 @@ for_window [class="vlc"] focus
 assign [class="Skype"] $ws7
 for_window [class="Skype"] focus
 
+assign [class="zoom"] $ws7
+for_window [class="zoom"] focus
+
 assign [class="fl64.exe"] $ws8
 for_window [class="fl64.exe"] focus
+
+assign [class="Audacity"] $ws8
+for_window [class="Audacity"] focus
 
 assign [class="Unity"] $ws9
 for_window [class="Unity"] focus
